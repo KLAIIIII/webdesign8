@@ -5,14 +5,15 @@
 }
 
 body {
-    main {
+    main{
         p{
             @include red-velvet-border;
-            background-color: rosybrown;
+            background-color: lightgoldenrodyellow;
         }
     }
-    footer{
+
+    footer {
         @include red-velvet-border(5px);
-        background-color: saddlebrown;
+        background-color: darkslategray;
     }
 }

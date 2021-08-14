@@ -1,11 +1,11 @@
-$them-color: {
-    primary: darkblue,
-    secondary: lightblue,
-    accent: red,
-};
+$theme-color: (
+    primary: rgba(168, 163, 163, 0),
+    secondary: #1d97e9,
+    accent: #d63030,
+);
 
 @function color($color-type){
-    @retune map-get($them-color, $color-type);
+    @return map-get($theme-color, $color-type);
 }
 
 body {
@@ -15,4 +15,4 @@ body {
     input {
         color: (color(accent));
     }
-}
+} 

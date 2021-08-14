@@ -1,20 +1,19 @@
 $button-margin: 20px;
 $header-padding: 1px;
-$footer-background-color: lightskyblue;
-$them-color: gold;
+$footer-background-color: lightyellow;
+$them-color: maroon;
 
-    header{
-        color: $them-color;
-        padding: $header-padding;
-    }
-    
-    footer {
-        color: $them-color;
-        background-color: $footer-background-color;
-    }
+header {
+    color: $them-color;
+    padding: $header-padding;
+}
 
-    input[type=button] {
-        background-color: $them-color;
-        margin: $button-margin;
-    }
+footer {
+    color: $them-color;
+    background-color: $footer-background-color;
+}
 
+input[type="button"] {
+    background-color: $them-color;
+    margin: $button-margin;
+}

@@ -1,7 +1,7 @@
 body {
-    background-color: darkblue;
-    color: lightblue;}
+  background-color: rgba(168, 163, 163, 0);
+  color: #1d97e9; }
+  body input {
+    color: #d63030; }
 
-    body input {
-        color: red;
-    }
+/*# sourceMappingURL=function.css.map */

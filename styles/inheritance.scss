@@ -1,12 +1,14 @@
 .message {
     font-size: 2em;
     border: 1px solid black;
-    }
+}
+
 .warning {
     @extend .message;
-    background-color: blue;
-    }
+    background-color: burlywood;
+}
+
 .error {
-    @extend .message;
-    background-color: red;
-    }
+    @extend .warning;
+    background-color: cornflowerblue;
+}

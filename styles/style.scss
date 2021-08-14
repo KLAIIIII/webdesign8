@@ -2,29 +2,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 
-    nav{
+    nav {
         font-size: 2em;
         text-align: center;
         cursor: pointer;
         padding: 10px 0;
-        .home{
-            background-color: crimson;
+
+        .home {
+            background-color: lightsteelblue;
         }
         .services {
-            background-color: cyan;
+            background-color: lightyellow;
         }
         .about-us {
-            background-color: darkorange;
+            background-color: maroon;
         }
         .contact {
-            background-color: darkorchid;
+            background-color: midnightblue;
         }
-
     }
 
     main {
-        h1{
-        font-size: 1.5em;
-     }
+        h1 {
+            font-size: 1.5em;
+        }
     }
 }
